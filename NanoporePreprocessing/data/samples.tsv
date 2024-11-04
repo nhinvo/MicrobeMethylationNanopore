@@ -1,0 +1,4 @@
+bam_filename	bam_fpath	ref_genome_path
+SQK-NBD114-24_barcode01	/orcd/data/chisholm/001/chisholmlab/experiment_repository/2024/240730Chi/PseudoID-24/20240805_1712_1B_PAW59116_2cfaf0b1/demux_modified_basecall/SQK-NBD114-24_barcode01.bam	data/ref_genomes/MED4.fna
+SQK-NBD114-24_barcode02	/orcd/data/chisholm/001/chisholmlab/experiment_repository/2024/240730Chi/PseudoID-24/20240805_1712_1B_PAW59116_2cfaf0b1/demux_modified_basecall/SQK-NBD114-24_barcode02.bam	data/ref_genomes/MED4.fna
+SQK-NBD114-24_barcode03	/orcd/data/chisholm/001/chisholmlab/experiment_repository/2024/240730Chi/PseudoID-24/20240805_1712_1B_PAW59116_2cfaf0b1/demux_modified_basecall/SQK-NBD114-24_barcode03.bam	data/ref_genomes/MED4.fna

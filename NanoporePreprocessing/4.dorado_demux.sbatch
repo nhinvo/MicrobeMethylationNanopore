@@ -15,7 +15,7 @@ echo "Job Name: $SLURM_JOB_NAME"
 echo -e "Number of CPUs allocated: $SLURM_CPUS_PER_TASK\n"
 
 ### 1. File/Dir Paths ### 
-raw_main_dir=/orcd/data/chisholm/001/chisholmlab/experiment_repository/2024/240730Chi/PseudoID-24/20240805_1712_1B_PAW59116_2cfaf0b1
+raw_main_dir=path/to/raw/files
 input_basecalled_bam_dir=${raw_main_dir}/pod5_modified_basecall
 
 demux_bam_outdir=${raw_main_dir}/demux_modified_basecall

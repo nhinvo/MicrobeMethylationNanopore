@@ -7,7 +7,7 @@
 #SBATCH --time=1-0
 #SBATCH --mem 10G 
 #SBATCH --gres=gpu:1
-#SBATCH --array=start-end%parallel
+#SBATCH --array=START-END%NUMBER
 #SBATCH -o logs/dorado_basecalling-%a-%j.out
 #SBATCH -e logs/dorado_basecalling-%a-%j.err
 
