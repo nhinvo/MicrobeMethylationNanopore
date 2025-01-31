@@ -108,23 +108,3 @@ c. 3rd column: path to reference genome for the sample (either relative or absol
     ```
     sbatch 5.map_bam.sbatch
     ```
-
-
-## MicrobeMod
-### Dependencies
-#### 1. Install all dependencies required by MicrobeMod 
-Install all dependencies required into a Conda environment name: `microbemod_dependencies`
-    ```
-    conda create -n microbemod_dependencies -c bioconda -c nanoporetech prodigal hmmer blast cath-tools meme modkit
-    ```
-
-#### 2. Install MicrobeMod
-Install MicrobeMod following instructions on the [Github page](https://github.com/cultivarium/MicrobeMod)
-
-### Steps
-#### 1. Copy ref_genomes/ and samples.tsv files: 
-1. Make data/ directory and cd into it 
-2. Copy samples.tsv file from NanoporePreprocessing/data/
-3. Copy ref_genomes/ directory from NanoporePreprocessing/data/
-
-#### 2. 
