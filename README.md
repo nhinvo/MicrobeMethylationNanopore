@@ -1,5 +1,4 @@
-# Microbial Methylation Detection - Nanopore Sequencing
-## NanoporePreprocessing
+# NanoporePreprocessing
 ### Dependencies
 #### 1. Installing pod5
 1. Create new environment with python version >= 3.8: `conda create -n pod5 python=3.8`
@@ -30,12 +29,14 @@ Dorado Github: https://github.com/nanoporetech/dorado
     ```
     sinfo -o "%P %G %D %N"
     ```  
-  a. Example Output:   
-    > PARTITION GRES NODES NODELIST  
-    > partition_1_name gpu:1 4 node[028-029,101,145]  
-    > partition_2_name gpu:1 14 node[019-026,087,106-108,161,170]  
-    > partition_3_name (null) 10 node[290-296,420-422]  
-    > partition_4_name gpu:8 1 node235  
+    a. Example Output:    
+    
+         PARTITION GRES NODES NODELIST  
+         partition_1_name gpu:1 4 node[028-029,101,145]  
+         partition_2_name gpu:1 14 node[019-026,087,106-108,161,170]  
+         partition_3_name (null) 10 node[290-296,420-422]  
+         partition_4_name gpu:8 1 node235    
+
 2. Once a node in partitions with GPUs has been identified (e.g. nodes where "GRES" column is not "(null)" above), check specifications of nodes using:   
     ```
     scontrol show node [nodename]  #e.g. node101
